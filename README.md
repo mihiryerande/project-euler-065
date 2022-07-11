@@ -1,4 +1,7 @@
-# Project Euler - Problem 65 - Convergents of *e*
+# Project Euler
+
+## Problem 65 - Convergents of *e*
+
 The square root of 2 can be written as an infinite continued fraction.
 
 $\qquad\sqrt{2} = 1 + \displaystyle\cfrac{1}{\displaystyle 2+\cfrac{1}{\displaystyle 2+\cfrac{1}{\displaystyle 2+\cfrac{1}{\displaystyle 2+\dots}}}}$
