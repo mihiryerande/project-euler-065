@@ -32,9 +32,10 @@
 #     Find the sum of digits in the numerator of the 100'th convergent of the continued fraction for *e*.
 
 from math import e
+from typing import Tuple
 
 
-def main(i):
+def main(i: int) -> Tuple[int, int]:
     """
     Returns the numerator and denominator of the i'th convergent of e.
 
@@ -42,7 +43,7 @@ def main(i):
         i (int): Natural number
 
     Returns:
-        (int, int): Numerator/denominator of n'th convergent of e.
+        (Tuple[int, int]): Numerator/denominator of n'th convergent of e.
 
     Raises:
         AssertError: if incorrect args are given
